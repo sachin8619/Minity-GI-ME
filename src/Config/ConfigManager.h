@@ -96,7 +96,7 @@ namespace Config
         {
             nlohmann::json configRoot = ConfigManager::Instance().GetCurrentConfig();
 
-            if (path.get().find(":") != std::string::npos) {
+            if (path.find(":") != std::string::npos) {
                 auto sections = JsonUtils::split(path, ":");
 
                 for (auto& section : sections)
@@ -123,7 +123,7 @@ namespace Config
     {
         nlohmann::json& configRoot = ConfigManager::Instance().GetCurrentConfig();
         nlohmann::json* configTemp = &configRoot;
-        if (path.get().find(":") != std::string::npos) {
+        if (path.find(":") != std::string::npos) {
             auto sections = JsonUtils::split(path, ":");
             for (auto& section : sections) {
                 if (!configTemp->contains(section))

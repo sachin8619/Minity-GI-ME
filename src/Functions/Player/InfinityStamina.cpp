@@ -15,7 +15,7 @@ namespace Player {
 	void InfinityStamina::InitHooks() {
 		Hooks::Attach(Offsets::WandererFlightHandler::Tick, hook_Wanderer_Tick);
 		Hooks::Attach(Offsets::WandererFlightHandler::SetValue, hook_Wanderer_SetValue);
-		Hooks::Attach(Offsets::DataItem::HandleNormalProp, hook_HandleNormalProp)
+		Hooks::Attach(Offsets::DataItem::HandleNormalProp, hook_HandleNormalProp);
 	}
 
 	InfinityStamina::InfinityStamina() : Feature(

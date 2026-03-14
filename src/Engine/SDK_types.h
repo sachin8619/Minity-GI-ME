@@ -3,6 +3,7 @@
 #include <Windows.h>
 #include <string>
 #include <vector>
+#include <map>
 
 namespace Unity {
     template <typename T>
@@ -306,6 +307,23 @@ namespace Unity {
 
     struct Time {
         static void set_timeScale(float value);
+    };
+
+}
+
+// Minimal definition to support config constellation changes.
+namespace MoleMole {
+    template<typename T>
+    struct RepeatedFieldArray
+    {
+        int max_length;
+        T   vector[65535];
+    };
+
+    struct RepeatedField
+    {
+        int count;
+        RepeatedFieldArray<int>* array;
     };
 }
 
