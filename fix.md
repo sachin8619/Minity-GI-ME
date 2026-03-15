@@ -115,7 +115,41 @@ These are **warnings**, not hard errors, unless the project treats warnings as e
 
 ---
 
-### 6. Build the project
+### 6. Fix Runtime "Access is denied" Error
+
+If you encounter this runtime error after building:
+
+```
+thread '<unnamed>' panicked at src\lib.rs:24:29:
+called `Result::unwrap()` on an `Err` value: Error { code: HRESULT(0x80070005), message: "Access is denied." }
+```
+
+**Solutions (try in order):**
+
+1. **Run as Administrator**
+   - Right-click the executable
+   - Select "Run as administrator"
+   - This is the most common fix for access denied errors
+
+2. **Check File Permissions**
+   - Ensure the game directory and Minty-GI files aren't read-only
+   - Grant full permissions to the application folder
+
+3. **Disable Security Software**
+   - Temporarily disable Windows Defender or other antivirus
+   - Add Minty-GI to antivirus exclusions
+
+4. **Verify Game Status**
+   - Ensure Genshin Impact is running before injecting
+   - Some features require the game to be in a specific state
+
+5. **Enable Debug Logging**
+   - Set environment variable: `RUST_BACKTRACE=1`
+   - This provides more detailed error information
+
+---
+
+### 7. Build the project
 
 1. In Visual Studio:
    - Select configuration: typically `Release` and platform `x64` (or what the project expects).
@@ -125,13 +159,13 @@ These are **warnings**, not hard errors, unless the project treats warnings as e
 If the build **fails**:
 
 - In Visual Studio, go to **Build → Build Solution** again.
-- Export the full error list to a file (as `errors.md` in this folder).
-- Open `errors.md` and check if errors reference **Documents** paths (not `Desktop`).
-- If needed, share the updated `errors.md` so we can address the last few issues.
+- Export the full error list to a file.
+- Check if errors reference **Documents** paths (not `Desktop`).
+- If needed, share the updated error log for further assistance.
 
 ---
 
-### 7. Run and see the UI
+### 8. Run and see the UI
 
 After a successful build:
 
@@ -145,7 +179,7 @@ If the program runs but you can’t see the UI or overlay:
 
 ---
 
-### 8. If you change folders again
+### 9. If you change folders again
 
 If you later copy the project somewhere else (e.g. Desktop):
 
