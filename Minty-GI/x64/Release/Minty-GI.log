@@ -1,0 +1,21 @@
+﻿  FpsUnlock.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/FpsUnlock.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,75): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,75): warning C4244:         with
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,75): warning C4244:         [
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,75): warning C4244:             T=int
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,75): warning C4244:         ]
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,65): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\imgui_widgets.cpp(10524): warning C4715: 'ImGui::Spinner': not all control paths return a value
+  All 9591 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'C:\Users\This PC\Documents\Minity-GI ME\x64\Release\detours.pdb'; linking object as if no debug info
+detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'C:\Users\This PC\Documents\Minity-GI ME\x64\Release\detours.pdb'; linking object as if no debug info
+detours.lib(modules.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(modules.obj)' or at 'C:\Users\This PC\Documents\Minity-GI ME\x64\Release\detours.pdb'; linking object as if no debug info
+  Minty-GI.vcxproj -> C:\Users\This PC\Documents\Minity-GI ME\x64\Release\Minty-GI.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

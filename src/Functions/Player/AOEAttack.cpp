@@ -24,7 +24,7 @@ namespace Player
 
 	void AOEAttack::Options()
 	{
-		ConfigSliderFloat(QENC("Attack range").c_str(), f_Range, 1.f, 100.f);
+		ConfigSliderFloat(("Attack range"), f_Range, 1.f, 100.f);
 	}
 
 	void AOEAttack::OnUpdate() {}

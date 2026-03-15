@@ -40,4 +40,10 @@ namespace Visuals {
 			Offsets::QualitySettings::set_vsyncCount(instance.m_Enabled ? 0 : 1);
 		}
 	}
+
+	void hook_GameManager_Update(void* this_)
+	{
+		OnUpdate_FPSUnlock();
+		Hooks::Call(hook_GameManager_Update, this_);
+	}
 }

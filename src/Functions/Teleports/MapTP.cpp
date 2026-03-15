@@ -1,4 +1,5 @@
 #include "MapTP.h"
+#include <thread>
 
 namespace Teleports {
 	void hook_InLevelMapPageContext_OnMapClicked(void* this_, Unity::Vector2 pos);
