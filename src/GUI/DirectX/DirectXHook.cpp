@@ -199,11 +199,11 @@ namespace DxHook {
 		}
 
 		printf(("Trying pattern #1...\n"));
-		foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("<...>"));
+		foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC 20 48 8B F2 48 8B E9 48 85 D2 75 ?"));
 		if (foundPIC == 0)
 		{
 			printf(("Trying pattern #2...\n"));
-			foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("<...>"));
+			foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("40 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 85 ? ? ? ? 4C 8B FA"));
 			if (foundPIC == 0)
 			{
 				MessageBoxA(FindWindowA("UnityWndClass", 0), ("Couldn't find PIC!\nCreate a ticket in our discord server"), ("DXGI ERROR"), (MB_TOPMOST));
