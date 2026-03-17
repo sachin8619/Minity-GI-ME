@@ -115,70 +115,7 @@ These are **warnings**, not hard errors, unless the project treats warnings as e
 
 ---
 
-### 6. Fix Runtime "Access is denied" Error
-
-If you encounter this runtime error after building:
-
-```
-thread '<unnamed>' panicked at src\lib.rs:24:29:
-called `Result::unwrap()` on an `Err` value: Error { code: HRESULT(0x80070005), message: "Access is denied." }
-```
-
-**CRITICAL: This error suggests an external Rust dependency or component is failing.**
-
-**Solutions (try in order):**
-
-1. **Run as Administrator** (Most Important)
-   - Right-click the executable
-   - Select "Run as administrator"
-   - This is the most common fix for access denied errors
-
-2. **Fix File Permissions**
-   - Run `fix_permissions.bat` (included in project)
-   - This takes ownership and grants full permissions to the folder
-
-3. **Check External Dependencies**
-   - The error may come from a third-party Rust library
-   - Ensure all dependencies are properly installed
-   - Check if any external tools need admin rights
-
-4. **Graphics Driver Issues**
-   - Update AMD/NVIDIA graphics drivers
-   - The stack trace shows `AmdPowerXpressRequestHighPerformance`
-   - Try disabling GPU switching in graphics control panel
-
-5. **Disable Security Software**
-   - Temporarily disable Windows Defender or other antivirus
-   - Add Minty-GI to antivirus exclusions
-   - Disable Windows SmartScreen temporarily
-
-6. **Verify Game Status**
-   - Ensure Genshin Impact is running before injecting
-   - Some features require the game to be in a specific state
-   - Try running game in windowed mode
-
-7. **Enable Debug Logging**
-   - Set environment variable: `RUST_BACKTRACE=1`
-   - This provides more detailed error information
-
-8. **Check for External Rust Components**
-   - Look for any .dll files that might be Rust-based
-   - Check if any build tools use Rust (cargo, rustc)
-   - Verify all third-party libraries are compatible
-
----
-
-### 8. Fix DirectX Hooking Pattern
-   - If hanging at "[...] Hooking Present...", the pattern signatures are missing
-   - Open `src\GUI\DirectX\DirectXHook.cpp`
-   - Replace lines 202 and 206 with proper pattern signatures:
-     - Pattern #1: `48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC 20 48 8B F2 48 8B E9 48 85 D2 75 ?`
-     - Pattern #2: `40 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 85 ? ? ? ? 4C 8B FA`
-   - This fix is already applied in the current codebase
-
----
-
-### 9. Build the project
+### 6. Build the project
 
 1. In Visual Studio:
    - Select configuration: typically `Release` and platform `x64` (or what the project expects).
@@ -188,13 +125,13 @@ called `Result::unwrap()` on an `Err` value: Error { code: HRESULT(0x80070005), 
 If the build **fails**:
 
 - In Visual Studio, go to **Build → Build Solution** again.
-- Export the full error list to a file.
-- Check if errors reference **Documents** paths (not `Desktop`).
-- If needed, share the updated error log for further assistance.
+- Export the full error list to a file (as `errors.md` in this folder).
+- Open `errors.md` and check if errors reference **Documents** paths (not `Desktop`).
+- If needed, share the updated `errors.md` so we can address the last few issues.
 
 ---
 
-### 8. Run and see the UI
+### 7. Run and see the UI
 
 After a successful build:
 
@@ -208,7 +145,7 @@ If the program runs but you can’t see the UI or overlay:
 
 ---
 
-### 9. If you change folders again
+### 8. If you change folders again
 
 If you later copy the project somewhere else (e.g. Desktop):
 

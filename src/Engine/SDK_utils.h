@@ -2,12 +2,14 @@
 
 #include <Windows.h>
 #include "../Utils/Singleton.h"
+#include "../Utils/Helper.hpp"
 #include <functional>
 #include <vector>
 
 #pragma warning( disable : 4789 )
 
 inline static uintptr_t BaseAddress = 0;
+inline static Helper::GameRegion DetectedRegion = Helper::GameRegion::OS;
 
 template<typename TReturn, typename... Args>
 class Function 
@@ -24,8 +26,17 @@ public:
             BaseAddress = (uintptr_t)GetModuleHandleA(0);
         }
 
-        // This should have a game build check which would decide offset to use: OS or CN
-        Functor = (TReturn(*)(Args...))(BaseAddress + OS_offset);
+        // Detect game region and use appropriate offset
+        try {
+            auto context = Helper::GetGameModuleContext();
+            DetectedRegion = context.region;
+        }
+        catch (...) {
+            DetectedRegion = Helper::GameRegion::OS; // Default to OS on error
+        }
+
+        uintptr_t selectedOffset = (DetectedRegion == Helper::GameRegion::CN) ? CN_offset : OS_offset;
+        Functor = (TReturn(*)(Args...))(BaseAddress + selectedOffset);
     }
 
     TReturn operator()(Args... args) 

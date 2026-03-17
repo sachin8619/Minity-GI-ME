@@ -57,5 +57,6 @@ C:\Users\This PC\Documents\Minity-GI ME\src\GUI\Images\ImageLoader.cpp;C:\Users\
 C:\Users\This PC\Documents\Minity-GI ME\src\GUI\Menu\Hotkey.cpp;C:\Users\This PC\Documents\Minity-GI ME\Minty-GI\x64\Release\Hotkey.obj
 C:\Users\This PC\Documents\Minity-GI ME\src\GUI\Menu\InitGUI.cpp;C:\Users\This PC\Documents\Minity-GI ME\Minty-GI\x64\Release\InitGUI.obj
 C:\Users\This PC\Documents\Minity-GI ME\src\GUI\Menu\MainGUI.cpp;C:\Users\This PC\Documents\Minity-GI ME\Minty-GI\x64\Release\MainGUI.obj
+C:\Users\This PC\Documents\Minity-GI ME\src\Utils\Helper.cpp;C:\Users\This PC\Documents\Minity-GI ME\Minty-GI\x64\Release\Helper.obj
 C:\Users\This PC\Documents\Minity-GI ME\src\Utils\Hooking.cpp;C:\Users\This PC\Documents\Minity-GI ME\Minty-GI\x64\Release\Hooking.obj
 C:\Users\This PC\Documents\Minity-GI ME\src\Utils\ResourceLoader.cpp;C:\Users\This PC\Documents\Minity-GI ME\Minty-GI\x64\Release\ResourceLoader.obj

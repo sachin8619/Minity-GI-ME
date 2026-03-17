@@ -206,7 +206,73 @@ namespace DxHook {
 			foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("40 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 85 ? ? ? ? 4C 8B FA"));
 			if (foundPIC == 0)
 			{
-				MessageBoxA(FindWindowA("UnityWndClass", 0), ("Couldn't find PIC!\nCreate a ticket in our discord server"), ("DXGI ERROR"), (MB_TOPMOST));
+				printf(("Trying pattern #3...\n"));
+				foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("48 8B C4 48 89 58 08 48 89 68 10 48 89 70 18 57 48 83 EC 20 48 8B F2 48 8B E9"));
+				if (foundPIC == 0)
+				{
+					printf(("Trying pattern #4...\n"));
+					foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC 20 48 8B F2 48 8B E9 48 85 D2 75 ? 8B"));
+					if (foundPIC == 0)
+					{
+						printf(("Trying pattern #5...\n"));
+						foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("48 8B C4 55 57 41 56 48 8D A8 ? ? ? ? 48 89 58 08 48 89 68 10 48 89 70 18"));
+						if (foundPIC == 0)
+						{
+							printf(("Trying pattern #6...\n"));
+							foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("48 8B C4 48 89 58 08 48 89 68 10 48 89 70 18 57 48 83 EC 30 48 8B F2 48 8B E9"));
+							if (foundPIC == 0)
+							{
+								printf(("Trying pattern #7...\n"));
+								foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("40 53 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 44 24 ? 48 8B 58 20"));
+								if (foundPIC == 0)
+								{
+									printf(("Trying pattern #8...\n"));
+									foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("48 89 5C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ?"));
+									if (foundPIC == 0)
+									{
+										printf(("Trying pattern #9...\n"));
+										foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("48 8B C4 48 89 58 08 48 89 68 10 48 89 70 18 57 48 83 EC 20 49 8B D9"));
+										if (foundPIC == 0)
+										{
+											printf(("Trying pattern #10...\n"));
+											foundPIC = pattern_scan((uintptr_t)GetModuleHandleA(("dxgi.dll")), ("40 55 48 83 EC 20 48 8B 05 ? ? ? ? 48 8B 48 08 48 85 C9 75 ? 48 8B 48 10"));
+											if (foundPIC == 0)
+											{
+												printf(("All patterns failed! Using alternative method...\n"));
+												// Alternative: Get Present from vtable directly
+												HMODULE hD3D11 = GetModuleHandleA("d3d11.dll");
+												if (hD3D11) {
+													typedef HRESULT(APIENTRY* PFN_D3D11_CREATE_DEVICE_AND_SWAP_CHAIN)(IDXGIAdapter*, D3D_DRIVER_TYPE, HMODULE, UINT, const D3D_FEATURE_LEVEL*, UINT, UINT, ID3D11Device**, IDXGISwapChain**, D3D_FEATURE_LEVEL*);
+													PFN_D3D11_CREATE_DEVICE_AND_SWAP_CHAIN D3D11CreateDeviceAndSwapChain = (PFN_D3D11_CREATE_DEVICE_AND_SWAP_CHAIN)GetProcAddress(hD3D11, "D3D11CreateDeviceAndSwapChain");
+													
+													if (D3D11CreateDeviceAndSwapChain) {
+														DXGI_SWAP_CHAIN_DESC swapDesc = {};
+														swapDesc.BufferCount = 1;
+														swapDesc.BufferDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
+														swapDesc.BufferUsage = DXGI_USAGE_RENDER_TARGET_OUTPUT;
+														swapDesc.OutputWindow = FindWindowA("UnityWndClass", 0);
+														swapDesc.SampleDesc.Count = 1;
+														swapDesc.Windowed = TRUE;
+
+														IDXGISwapChain* pTempSwapChain = nullptr;
+														ID3D11Device* pTempDevice = nullptr;
+														if (SUCCEEDED(D3D11CreateDeviceAndSwapChain(nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, 0, nullptr, 0, D3D11_SDK_VERSION, &swapDesc, &pTempSwapChain, &pTempDevice))) {
+															const DWORD_PTR* pVTable = *(DWORD_PTR**)pTempSwapChain;
+															present = (IDXGISwapChainPresent)pVTable[8];
+															pTempSwapChain->Release();
+															pTempDevice->Release();
+															foundPIC = 1; // Mark as found
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 

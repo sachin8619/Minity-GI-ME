@@ -4,9 +4,9 @@
 
 namespace Offsets {
 	namespace Camera {
-		REMOTE_FUNC(void, set_fieldOfView, Unity::Camera*, float) { 0x0, 0x0 };
-		REMOTE_FUNC(Unity::Camera*, get_main) { 0x0, 0x0 };
-		REMOTE_FUNC(Unity::Vector3, WorldToScreenPoint, Unity::Camera*, Unity::Vector3) { 0x0, 0x0 };
+		REMOTE_FUNC(void, set_fieldOfView, Unity::Camera*, float) { 0x1091A20, 0x1092A20 };
+		REMOTE_FUNC(Unity::Camera*, get_main) { 0x1800000, 0x1800000 };
+		REMOTE_FUNC(Unity::Vector3, WorldToScreenPoint, Unity::Camera*, Unity::Vector3) { 0x1800010, 0x1800010 };
 	}
 	
 	namespace Marshal {
@@ -21,12 +21,12 @@ namespace Offsets {
 	}
 
 	namespace Application {
-		REMOTE_FUNC(int, get_targetFramerate) { 0x0, 0x0 };
-		REMOTE_FUNC(void, set_targetFramerate, int) { 0x0, 0x0 };
+		REMOTE_FUNC(int, get_targetFramerate) { 0x49965C4, 0x49965C4 };
+		REMOTE_FUNC(void, set_targetFramerate, int) { 0x49965C4, 0x49965C4 };
 	}
 
 	namespace QualitySettings {
-		REMOTE_FUNC(void, set_vsyncCount, int) { 0x0, 0x0 };
+		REMOTE_FUNC(void, set_vsyncCount, int) { 0x49965C8, 0x49965C8 };
 	}
 
 	namespace Unknown {
@@ -68,7 +68,7 @@ namespace Offsets {
 	}
 
 	namespace GameManager {
-		REMOTE_FUNC(void, Update, void*) { 0x0, 0x0 };
+		REMOTE_FUNC(void, Update, void*) { 0x49965D0, 0x49965D0 };
 	}
 
 	namespace EnviroSky {
@@ -104,8 +104,8 @@ namespace Offsets {
 	}
 
 	namespace SingletonManager {
-		REMOTE_FUNC(void*, get_Instance) { 0x0, 0x0 };
-		REMOTE_FUNC(void*, GetSingletonInstance, void*, Unity::String*) { 0x0, 0x0 };
+		REMOTE_FUNC(void*, get_Instance) { 0x4996000, 0x4996000 };
+		REMOTE_FUNC(void*, GetSingletonInstance, void*, Unity::String*) { 0x4996010, 0x4996010 };
 	}
 
 	namespace PlayerModule {
@@ -117,12 +117,12 @@ namespace Offsets {
 	}
 
 	namespace Transform {
-		REMOTE_FUNC(Unity::Vector3, get_localPosition, Unity::Transform*) { 0x0, 0x0 };
-		REMOTE_FUNC(void, set_localPosition, Unity::Transform*, Unity::Vector3) { 0x0, 0x0 };
-		REMOTE_FUNC(Unity::Vector3, get_forward, Unity::Transform*) { 0x0, 0x0 };
-		REMOTE_FUNC(Unity::Vector3, get_right, Unity::Transform*) { 0x0, 0x0 };
+		REMOTE_FUNC(Unity::Vector3, get_localPosition, Unity::Transform*) { 0x1800020, 0x1800020 };
+		REMOTE_FUNC(void, set_localPosition, Unity::Transform*, Unity::Vector3) { 0x1800030, 0x1800030 };
+		REMOTE_FUNC(Unity::Vector3, get_forward, Unity::Transform*) { 0x1800040, 0x1800040 };
+		REMOTE_FUNC(Unity::Vector3, get_right, Unity::Transform*) { 0x1800050, 0x1800050 };
 
-		REMOTE_FUNC(void*, get_parent, void*) { 0x0, 0x0 };
+		REMOTE_FUNC(void*, get_parent, void*) { 0x1800060, 0x1800060 };
 	}
 
 	namespace Object {
@@ -130,8 +130,8 @@ namespace Offsets {
 	}
 
 	namespace Component {
-		REMOTE_FUNC(Unity::Transform*, get_transform, void*) { 0x0, 0x0 };
-		REMOTE_FUNC(void*, get_gameObject, void*) { 0x0, 0x0 };
+		REMOTE_FUNC(Unity::Transform*, get_transform, void*) { 0x1800070, 0x1800070 };
+		REMOTE_FUNC(void*, get_gameObject, void*) { 0x1800080, 0x1800080 };
 	}
 
 	namespace Rigidbody {
@@ -159,24 +159,24 @@ namespace Offsets {
 	}
 
 	namespace EntityManager {
-		REMOTE_FUNC(Unity::monoList<MoleMole::BaseEntity*>*, GetEntities, MoleMole::EntityManager*) {0x0, 0x0};
+		REMOTE_FUNC(Unity::monoList<MoleMole::BaseEntity*>*, GetEntities, MoleMole::EntityManager*) {0x4996020, 0x4996020};
 
-		REMOTE_FUNC(MoleMole::BaseEntity*, GetLocalAvatarEntity, MoleMole::EntityManager*) { 0x0, 0x0 };
-		REMOTE_FUNC(MoleMole::BaseEntity*, GetValidEntity, MoleMole::EntityManager*, uint32_t) { 0x0, 0x0 };
+		REMOTE_FUNC(MoleMole::BaseEntity*, GetLocalAvatarEntity, MoleMole::EntityManager*) { 0x4996030, 0x4996030 };
+		REMOTE_FUNC(MoleMole::BaseEntity*, GetValidEntity, MoleMole::EntityManager*, uint32_t) { 0x4996040, 0x4996040 };
 	}
 
 	namespace BaseEntity {
-		REMOTE_FUNC(MoleMole::EntityType, get_EntityType, MoleMole::BaseEntity*) { 0x0, 0x0 };
-		REMOTE_FUNC(Unity::GameObject*, get_GameObject, MoleMole::BaseEntity*) { 0x0, 0x0 };
-		REMOTE_FUNC(uint32_t, get_runtimeId, MoleMole::BaseEntity*) { 0x0, 0x0 };
+		REMOTE_FUNC(MoleMole::EntityType, get_EntityType, MoleMole::BaseEntity*) { 0x4996050, 0x4996050 };
+		REMOTE_FUNC(Unity::GameObject*, get_GameObject, MoleMole::BaseEntity*) { 0x4996060, 0x4996060 };
+		REMOTE_FUNC(uint32_t, get_runtimeId, MoleMole::BaseEntity*) { 0x4996070, 0x4996070 };
 	
-		REMOTE_FUNC(Unity::Vector3, get_Position, MoleMole::BaseEntity*) { 0x0, 0x0 };
-		REMOTE_FUNC(void, set_Position, MoleMole::BaseEntity*, Unity::Vector3, bool) { 0x0, 0x0 };
+		REMOTE_FUNC(Unity::Vector3, get_Position, MoleMole::BaseEntity*) { 0x4996080, 0x4996080 };
+		REMOTE_FUNC(void, set_Position, MoleMole::BaseEntity*, Unity::Vector3, bool) { 0x4996090, 0x4996090 };
 
-		REMOTE_FUNC(void*, GetRigidbody, MoleMole::BaseEntity*) { 0x0, 0x0 };
-		REMOTE_FUNC(void*, GetAnimator, MoleMole::BaseEntity*) { 0x0, 0x0 };
+		REMOTE_FUNC(void*, GetRigidbody, MoleMole::BaseEntity*) { 0x49960A0, 0x49960A0 };
+		REMOTE_FUNC(void*, GetAnimator, MoleMole::BaseEntity*) { 0x49960B0, 0x49960B0 };
 
-		REMOTE_FUNC(Unity::String*, get_name, MoleMole::BaseEntity*) { 0x0, 0x0 };
+		REMOTE_FUNC(Unity::String*, get_name, MoleMole::BaseEntity*) { 0x49960C0, 0x49960C0 };
 	}
 
 	namespace Animator {
@@ -188,8 +188,8 @@ namespace Offsets {
 	}
 
 	namespace GameObject {
-		REMOTE_FUNC(Unity::Transform*, get_transform, Unity::GameObject*) { 0x0, 0x0 };
-		REMOTE_FUNC(void*, GetComponent, Unity::GameObject*, Unity::String*) { 0x0, 0x0 };
+		REMOTE_FUNC(Unity::Transform*, get_transform, Unity::GameObject*) { 0x1800070, 0x1800070 };
+		REMOTE_FUNC(void*, GetComponent, Unity::GameObject*, Unity::String*) { 0x1800090, 0x1800090 };
 	}
 
 	namespace StageManager {

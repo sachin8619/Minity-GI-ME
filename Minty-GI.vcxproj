@@ -214,6 +214,7 @@
     <ClCompile Include="src\GUI\Menu\Hotkey.cpp" />
     <ClCompile Include="src\GUI\Menu\InitGUI.cpp" />
     <ClCompile Include="src\GUI\Menu\MainGUI.cpp" />
+    <ClCompile Include="src\Utils\Helper.cpp" />
     <ClCompile Include="src\Utils\Hooking.cpp" />
     <ClCompile Include="src\Utils\ResourceLoader.cpp" />
   </ItemGroup>
@@ -387,6 +388,7 @@
     <ClInclude Include="src\GUI\Menu\InitGUI.h" />
     <ClInclude Include="src\GUI\Menu\MainGUI.h" />
     <ClInclude Include="src\Utils\detours.h" />
+    <ClInclude Include="src\Utils\Helper.hpp" />
     <ClInclude Include="src\Utils\Hooking.h" />
     <ClInclude Include="src\Utils\ProjectGlobals.h" />
     <ClInclude Include="src\Utils\ResourceLoader.h" />
