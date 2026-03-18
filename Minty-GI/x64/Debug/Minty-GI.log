@@ -1,0 +1,474 @@
+﻿  dllmain.cpp
+  threads.cpp
+  Bypass.cpp
+  ConfigManager.cpp
+  SDK.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_freetype.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_dx12.cpp
+  imgui_impl_win32.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Engine/SDK.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  imgui_stdlib.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  AOEAttack.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Player/AOEAttack.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Engine/SDK.cpp')
+  
+  Godmode.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Player/Godmode.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\imgui_widgets.cpp(10510,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\imgui_widgets.cpp(10510,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\imgui_widgets.cpp(10519,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\imgui_widgets.cpp(10520,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\imgui_widgets.cpp(10523,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  InfinityStamina.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Player/InfinityStamina.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  InfinityUltimate.cpp
+  MultiHit.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Player/InfinityUltimate.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Player/MultiHit.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\imgui_widgets.cpp(10524,1): warning C4715: 'ImGui::Spinner': not all control paths return a value
+  Noclip.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Player/Noclip.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  NoSkillCd.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Player/NoSkillCd.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  PlayerSpeed.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Player/PlayerSpeed.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Player/Godmode.cpp')
+  
+  WalkOnWater.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Player/WalkOnWater.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\ImGuiNotify.hpp(490,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/Bootstrap/threads.cpp')
+  
+  Settings.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Settings/Settings.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Player/AOEAttack.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Player/InfinityStamina.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Player/MultiHit.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Player/InfinityUltimate.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Player/NoSkillCd.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Bootstrap/threads.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Bootstrap/threads.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Player/Noclip.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Player/WalkOnWater.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Player/PlayerSpeed.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Settings/Settings.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Player\InfinityStamina.cpp(57,9): warning C4305: '=': truncation from 'double' to 'float'
+  MapTP.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Teleports/MapTP.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  OculiTP.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Teleports/OculiTP.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  QuestTP.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Teleports/QuestTP.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Teleports/MapTP.cpp')
+  
+  TeleportBase.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Teleports/TeleportBase.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  ConstChanger.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/ConstChanger.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  FakeTime.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/FakeTime.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  FakeWeather.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/FakeWeather.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Teleports/OculiTP.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Teleports/QuestTP.cpp')
+  
+  OpenTeamImmediately.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/OpenTeamImmediately.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  ResinCrafter.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/ResinCrafter.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Teleports/TeleportBase.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/FakeTime.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/ConstChanger.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/FakeWeather.cpp')
+  
+  FlycloakChanger.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/FlycloakChanger.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/OpenTeamImmediately.cpp')
+  
+  FovChanger.cpp
+  FpsUnlock.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/FovChanger.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/FpsUnlock.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/ResinCrafter.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Teleports\OculiTP.cpp(116,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/FlycloakChanger.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\ImGuiNotify.hpp(490,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/Functions/Teleports/TeleportBase.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/FpsUnlock.cpp')
+  
+  GraphicsChanger.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/GraphicsChanger.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/FovChanger.cpp')
+  
+  HideDamage.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/HideDamage.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  InstantBowCharge.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/InstantBowCharge.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/GraphicsChanger.cpp')
+  
+  ObjectSpawner.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/ObjectSpawner.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,75): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,75): warning C4244:         with
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,75): warning C4244:         [
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,75): warning C4244:             T=int
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,75): warning C4244:         ]
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Visuals\FpsUnlock.cpp(39,65): warning C4244: 'argument': conversion from 'float' to 'int32_t', possible loss of data
+  SkipCutscene.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/SkipCutscene.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  Uncensor.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Visuals/Uncensor.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  AutoActivateTP.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/World/AutoActivateTP.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/HideDamage.cpp')
+  
+  AutoDestroy.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/World/AutoDestroy.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/SkipCutscene.cpp')
+  
+  AutoLoot.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/World/AutoLoot.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/Uncensor.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/InstantBowCharge.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Visuals/ObjectSpawner.cpp')
+  
+  AutoSeelie.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/World/AutoSeelie.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/World/AutoActivateTP.cpp')
+  
+  Autotalk.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/World/Autotalk.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/World/AutoDestroy.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/World/AutoLoot.cpp')
+  
+  ChestTP.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/Teleports/ChestTP.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/World/AutoSeelie.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/World/Autotalk.cpp')
+  
+  DumbEnemies.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/World/DumbEnemies.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  ESP.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/World/ESP.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/Teleports/ChestTP.cpp')
+  
+  ESPBase.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/World/ESPBase.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  KillAura.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/Functions/World/KillAura.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+  DirectXHook.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/World/ESP.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/World/DumbEnemies.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/World/ESPBase.cpp')
+  
+  FontsLoader.cpp
+  ImageLoader.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\Teleports\ChestTP.cpp(108,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/Functions/World/KillAura.cpp')
+  
+  Hotkey.cpp
+  InitGUI.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESP.cpp(45,80): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESP.cpp(46,88): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESP.cpp(47,51): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(114,51): warning C4244: '/=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(115,51): warning C4244: '/=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,20): warning C4305: '*=': truncation from 'double' to '_Ty'
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,20): warning C4305:         with
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,20): warning C4305:         [
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,20): warning C4305:             _Ty=float
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,20): warning C4305:         ]
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,41): warning C4305: '*=': truncation from 'double' to '_Ty'
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,41): warning C4305:         with
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,41): warning C4305:         [
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,41): warning C4305:             _Ty=float
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,41): warning C4305:         ]
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,62): warning C4305: '*=': truncation from 'double' to '_Ty'
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,62): warning C4305:         with
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,62): warning C4305:         [
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,62): warning C4305:             _Ty=float
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(129,62): warning C4305:         ]
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,23): warning C4305: '*=': truncation from 'double' to '_Ty'
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,23): warning C4305:         with
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,23): warning C4305:         [
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,23): warning C4305:             _Ty=float
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,23): warning C4305:         ]
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,47): warning C4305: '*=': truncation from 'double' to '_Ty'
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,47): warning C4305:         with
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,47): warning C4305:         [
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,47): warning C4305:             _Ty=float
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,47): warning C4305:         ]
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,71): warning C4305: '*=': truncation from 'double' to '_Ty'
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,71): warning C4305:         with
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,71): warning C4305:         [
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,71): warning C4305:             _Ty=float
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(130,71): warning C4305:         ]
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(186,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(187,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Functions\World\ESPBase.cpp(244,54): warning C4390: ';': empty controlled statement found; is this the intent?
+  MainGUI.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\ImGuiNotify.hpp(490,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/GUI/DirectX/DirectXHook.cpp')
+  
+  Helper.cpp
+  Hooking.cpp
+  ResourceLoader.cpp
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\ImGuiNotify.hpp(490,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/GUI/Images/ImageLoader.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\GUI\DirectX\DirectXHook.cpp(63,13): warning C4244: '=': conversion from 'UINT' to 'FLOAT', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\GUI\DirectX\DirectXHook.cpp(64,14): warning C4244: '=': conversion from 'UINT' to 'FLOAT', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\GUI\DirectX\DirectXHook.cpp(259,19): error C2664: 'HRESULT (IDXGIAdapter *,D3D_DRIVER_TYPE,HMODULE,UINT,const D3D_FEATURE_LEVEL *,UINT,UINT,ID3D11Device **,IDXGISwapChain **,D3D_FEATURE_LEVEL *)': cannot convert argument 10 from 'ID3D11Device **' to 'D3D_FEATURE_LEVEL *'
+      C:\Users\This PC\Documents\Minity-GI ME\src\GUI\DirectX\DirectXHook.cpp(259,19):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\GUI\DirectX\DirectXHook.cpp(259,19): error C2664: 'HRESULT (IDXGIAdapter *,D3D_DRIVER_TYPE,HMODULE,UINT,const D3D_FEATURE_LEVEL *,UINT,UINT,ID3D11Device **,IDXGISwapChain **,D3D_FEATURE_LEVEL *)': cannot convert argument 8 from 'DXGI_SWAP_CHAIN_DESC *' to 'ID3D11Device **'
+      C:\Users\This PC\Documents\Minity-GI ME\src\GUI\DirectX\DirectXHook.cpp(259,19):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\ImGuiNotify.hpp(490,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/GUI/Menu/MainGUI.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Frameworks\ImGui\ImGuiNotify.hpp(490,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/GUI/Menu/InitGUI.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\GUI\Menu\MainGUI.cpp(91,32): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9): warning C4005: '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING': macro redefinition
+  (compiling source file 'src/GUI/Menu/InitGUI.cpp')
+      C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK.h(2,9):
+      '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' previously declared on the command line
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\Engine\SDK_types.h(246,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/GUI/Menu/InitGUI.cpp')
+  
+C:\Users\This PC\Documents\Minity-GI ME\src\GUI\Menu\InitGUI.cpp(138,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\This PC\Documents\Minity-GI ME\src\GUI\Menu\InitGUI.cpp(170,3): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
